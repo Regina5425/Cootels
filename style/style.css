@@ -8,6 +8,7 @@ body {
 
 /* ======= HEADER ===========*/
 .header {
+	margin-top: 26px;
 	margin-bottom: 50px;
 }
 
@@ -17,9 +18,9 @@ body {
 
 nav {
 	position: absolute;
-	margin-bottom: 15px;
 	top: 0;
 	left: 40%;
+	margin-bottom: 15px;
 }
 
 .nav__item {
@@ -43,10 +44,10 @@ nav {
 	padding: 14px 16px;
 	font-weight: 500;
 	line-height: 19px;
+	color: #fff;
 	text-decoration: none;
 	border-radius: 4px;
 	background-color: #0e1734;
-	color: #fff;
 	transition: background-color 0.3s ease;
 }
 
@@ -55,20 +56,25 @@ nav {
 }
 
 /*==========MAIN===========*/
-.hero {
+.section {
 	position: relative;
 	margin-bottom: 50px;
-	padding: 80px 0 96px 0;
 }
 
-.hero-block {
+.container {
+	padding: 80px 0;
+}
+
+.block {
 	max-width: 587px;
+	padding-top: 135px;
 }
 
 .hero-image {
 	position: absolute;
-	top: 0;
+	top: 80px;
 	right: 0;
+	bottom: 80px;
 }
 
 #title {
@@ -94,13 +100,35 @@ nav {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
+	color: #fff;
 	text-decoration: none;
 	border-radius: 4px;
 	background-color: #0E1734;
-	color: #fff;
 	transition: background-color 0.3s ease;
 }
 
 .button:hover {
 	background-color: #1e306a;
+}
+
+.block-two {
+	position: absolute;
+	top: 185px;
+	right: 0;
+	max-width: 690px;
+}
+
+.subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 150%;
+	letter-spacing: -0.01em;
+	color: #192252;
+}
+
+.image-right {
+	position: absolute;
+	top: 120px;
+	right: 0;
 }
