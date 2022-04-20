@@ -163,8 +163,13 @@ a {
 	flex: 1 1 33.33%;
 }
 
+.gallery-img {
+	margin-bottom: 32px;
+}
+
 .gallery-title {
 	margin: 0;
+	margin-bottom: 16px;
 	font-family: 'Montserrat';
 	font-weight: 600;
 	font-size: 24px;
@@ -180,6 +185,10 @@ a {
 	line-height: 150%;
 	color: #424F7B;
 	transition: color 0.3s ease;
+}
+
+.gallery-text {
+	margin-bottom: 32px;
 }
 
 .gallery-link::after {
