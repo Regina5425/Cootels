@@ -51,7 +51,7 @@ a {
 	font-size: 16px;
 	line-height: 19px;
 	color: #192252;
-	transition: text-decoration 0.3s ease;
+	transition: color 0.3s ease;
 }
 
 .nav__item:not(:last-child) {
@@ -59,7 +59,7 @@ a {
 }
 
 .nav__item:hover {
-	text-decoration: underline;
+	color: #848fac;
 }
 
 .header__link {
@@ -87,7 +87,6 @@ a {
 
 .main-block {
 	max-width: 587px;
-	/* padding-top: 135px; */
 }
 
 #title {
@@ -180,7 +179,6 @@ a {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 150%;
-	/* text-align: center; */
 	color: #000;
 }
 
@@ -191,10 +189,6 @@ a {
 	line-height: 150%;
 	color: #424f7b;
 	transition: color 0.3s ease;
-}
-
-.gallery-text {
-	margin-bottom: 32px;
 }
 
 .gallery-link::after {
@@ -210,7 +204,11 @@ a {
 }
 
 .gallery-link:hover {
-	color: #20273a;
+	color: #848fac;
+}
+
+.gallery-text {
+	margin-bottom: 32px;
 }
 
 .contacts {
@@ -246,11 +244,11 @@ a {
 	font-size: 16px;
 	line-height: 19px;
 	color: #0E1734;
-	transition: text-decoration 0.3s ease;
+	transition: color 0.3s ease;
 }
 
 .contact-btn:hover {
-	text-decoration: underline;
+	color: #848fac;
 }
 
 .choose {
